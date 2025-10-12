@@ -1,0 +1,10 @@
+Comentarios:
+
+*11/10/25*
+- Siento que no hay que hay que seleccionar uno de estos datos (WindGustDir - WindDir9am - WindDir3pm) o buscar un punto intermedio porque no siento que sean necesarios todos.
+- Lo mismo con las variables 'WindGustSpeed' - 'WindSpeed9am' - 'WindSpeed3pm'.
+- 'Latitud' y 'Longitud' como ya las utilizamos para obtener la columna "regiones" siento que ya no son necesarias en el dataset.
+- Falta responder: ¿Está balanceado el dataset? ¿Por qué cree que hacemos esta pregunta? 
+- Falta hacer el grafico de correlación
+- debemos codificar las estas variables categoricas en caso de usarlo: WindGustDir - WindDir9am - WindDir3pm 
+- quizas sea necesario eliminar luego las columnas que no utilizaremos en el dataset antes de escalar los datos.
