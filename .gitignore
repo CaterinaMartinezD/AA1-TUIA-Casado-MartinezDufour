@@ -4,3 +4,4 @@ venv/
 *.xlsx#
 *.xlsx
 __pycache__/
+Climate Zone Maps/

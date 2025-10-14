@@ -4,3 +4,5 @@ seaborn
 plotly
 scikit-learn
 openpyxl
+geopandas 
+requests

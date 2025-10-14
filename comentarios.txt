@@ -1,5 +1,11 @@
 Comentarios:
 
+*10/10/25*:
+
+- yo pondria el dia del mes: 1,2,3,4,5 ..31 porque no veo que influya si es lunes o miercoles en el clima
+- eliminamos tambien los datos del target nulos??
+- que pasa si tomamos 5 o 6 regiones?
+
 *11/10/25*
 - Siento que no hay que hay que seleccionar uno de estos datos (WindGustDir - WindDir9am - WindDir3pm) o buscar un punto intermedio porque no siento que sean necesarios todos.
 - Lo mismo con las variables 'WindGustSpeed' - 'WindSpeed9am' - 'WindSpeed3pm'.
@@ -8,3 +14,21 @@ Comentarios:
 - Falta hacer el grafico de correlación
 - debemos codificar las estas variables categoricas en caso de usarlo: WindGustDir - WindDir9am - WindDir3pm 
 - quizas sea necesario eliminar luego las columnas que no utilizaremos en el dataset antes de escalar los datos.
+
+*14/10/2025:*
+Encontre estos mapas de zonas climatologicas de australia:
+https://data.gov.au/data/dataset/australian-climate-zone-map/resource/3a94bc2a-4f21-4b2d-ac6c-ddbb37945144
+es un zip que contiene un shape
+Me queda sin asignar: Norfolk Island: nan
+Habria que asignar a mano una region
+
+| Código | Nombre (inglés oficial)           |
+| :----- | :-------------------------------- |
+| 1      | High humidity summer, warm winter |
+| 2      | Warm humid summer, mild winter    |
+| 3      | Hot dry summer, warm winter       |
+| 4      | Hot dry summer, cool winter       |
+| 5      | Warm temperate                    |
+| 6      | Mild temperate                    |
+| 7      | Cool temperate                    |
+| 8      | Alpine                            |
