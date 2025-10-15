@@ -32,3 +32,46 @@ Habria que asignar a mano una region
 | 6      | Mild temperate                    |
 | 7      | Cool temperate                    |
 | 8      | Alpine                            |
+
+
+*15/10/2025*
+- la imputacion de la mediana o la moda la haria por segmentada por localidad o region no del todo el dataset
+pero primero veria si algun de las otras variables tiene datos y tomaria ese dato.
+que no haya datos de la direccion del viento en ninguna columna serian 1800 casos nomas por ejemplo
+- las variables: rainfall y raintoday  no son consistentes, ejemplo hay casos de rainfall>0 y raintoday=NO
+- Se puede observar una alta correlacion entre las variables MinTemp, MaxTemp, Temp9am, Tem3pm, con lo cual se podria ver de descartar 2 de ellas
+
+
+
+ #   Column         Non-Null Count   Dtype  
+---  ------         --------------   -----  
+    
+ 4   WindGustSpeed  106348 non-null  float64 -> imputo con mediana de train
+ 7   WindSpeed9am   112671 non-null  float64 -> imputo con mediana de train
+ 8   WindSpeed3pm   111645 non-null  float64 -> imputo con mediana de train
+ 
+ 9   Humidity9am    112334 non-null  float64 -> imputo con mediana de train
+ 10  Humidity3pm    110841 non-null  float64 -> imputo con mediana de train
+ 
+ 11  Pressure9am    102497 non-null  float64  -> imputo con mediana de train
+ 12  Pressure3pm    102529 non-null  float64  -> imputo con mediana de train
+ 
+ 0   MinTemp        113229 non-null  float64 -> imputo con mediana de train
+ 1   MaxTemp        113486 non-null  float64 -> imputo con mediana de train
+ 13  Temp9am        113018 non-null  float64  -> imputo con mediana de train
+ 14  Temp3pm        111548 non-null  float64  -> imputo con mediana de train
+ 
+ 3   WindGustDir    106296 non-null  object -> imputo con moda de train
+ 5   WindDir9am     105718 non-null  object -> imputo con moda de train
+ 6   WindDir3pm     110731 non-null  object -> imputo con moda de train
+ 
+ 2   Rainfall       112572 non-null  float64 -> imputo con mediana de train
+ 15  RainToday      112572 non-null  object -> imputo con moda de train
+ 
+ 16  RainTomorrow   113754 non-null  object -> elimino datos faltantes
+ 
+ 17  Latitud        113754 non-null  float64
+ 18  Longitud       113754 non-null  float64
+ 19  Regiones       113754 non-null  object 
+ 20  Month          113754 non-null  int32  
+
