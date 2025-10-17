@@ -75,3 +75,7 @@ que no haya datos de la direccion del viento en ninguna columna serian 1800 caso
  19  Regiones       113754 non-null  object 
  20  Month          113754 non-null  int32  
 
+17/10/2025
+- obs: Porque el maximo de Rainfall se va a 618?
+- incorporacion de la funcion boxplot_target()
+- mejora del grafico de la curva ROC, falta interpretarlo correctamente y definir el mejor umbral
