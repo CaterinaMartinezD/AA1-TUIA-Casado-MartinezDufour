@@ -86,5 +86,8 @@ Dudas para consulta:
 - porque dan las mismas metricas los modelos balanceado y sin balancear con el umbral optimo 
 - Es lo mismo convertir a numero el target Yes/No o aplicar onehotencoder?
 
+22/10/2025:
+- ver tema fuga de datos: que variables si pueden tener cuenta: rainfall? raintoday? WindGustSpeed?
+- 
 
 
