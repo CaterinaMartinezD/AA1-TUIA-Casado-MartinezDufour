@@ -88,6 +88,6 @@ Dudas para consulta:
 
 22/10/2025:
 - ver tema fuga de datos: que variables si pueden tener cuenta: rainfall? raintoday? WindGustSpeed?
-- 
+- SHAP: como se interpreta las variables binarias? por ejemplo Regiones_Norte
 
 
