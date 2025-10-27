@@ -90,4 +90,5 @@ Dudas para consulta:
 - ver tema fuga de datos: que variables si pueden tener cuenta: rainfall? raintoday? WindGustSpeed?
 - SHAP: como se interpreta las variables binarias? por ejemplo Regiones_Norte
 
-
+27/10/2025
+- Se agrego en la sección "5.​ Optimizar la selección de hiperparámetros." la solución del punto 5 del trabajo.
