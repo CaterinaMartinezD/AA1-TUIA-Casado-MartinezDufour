@@ -92,3 +92,11 @@ Dudas para consulta:
 
 27/10/2025
 - Se agrego en la sección "5.​ Optimizar la selección de hiperparámetros." la solución del punto 5 del trabajo.
+
+28/10/25:
+- Se modifico la sección "5.​ Optimizar la selección de hiperparámetros": se agregaron los 3 métodos de busqueda.
+falta:
+- Modificar el modelo base con una variable (la más importante) o armar un predictor en base a la probabilidad de lluvia por region y mes.
+- No eliminar del dataset las variables que poseen una alta correlación.
+- Crear una columna de amplitud termica.
+- Si queremos observar el gráfico diferente de la curva de ROC podemos usar el modelo balanceado con smote y un modelo sin balancear.
