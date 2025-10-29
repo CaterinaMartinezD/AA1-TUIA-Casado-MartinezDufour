@@ -95,8 +95,13 @@ Dudas para consulta:
 
 28/10/25:
 - Se modifico la sección "5.​ Optimizar la selección de hiperparámetros": se agregaron los 3 métodos de busqueda.
-falta:
-- Modificar el modelo base con una variable (la más importante) o armar un predictor en base a la probabilidad de lluvia por region y mes.
+- Se Modifico el modelo base con una variable (la más importante: Humedad 3pm)
+Falta:
 - No eliminar del dataset las variables que poseen una alta correlación.
 - Crear una columna de amplitud termica.
 - Si queremos observar el gráfico diferente de la curva de ROC podemos usar el modelo balanceado con smote y un modelo sin balancear.
+
+- Me parece que hay que usar python 3.11 para pycaret, porque me tira este error: ModuleNotFoundError: No module named 'distutils'
+y este modulo en la 3.12 fue deprecado.
+
+

@@ -8,3 +8,5 @@ geopandas
 requests
 imblearn
 shap
+optuna
+pycaret
