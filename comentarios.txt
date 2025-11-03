@@ -104,4 +104,5 @@ Falta:
 - Me parece que hay que usar python 3.11 para pycaret, porque me tira este error: ModuleNotFoundError: No module named 'distutils'
 y este modulo en la 3.12 fue deprecado.
 
-
+03/11/2025:
+- Comente de forma general la sección "7.​ Implementar un modelo de AutoML con PyCaret ¿Qué observa?".
