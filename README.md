@@ -19,6 +19,7 @@ Crea un entorno virtual llamado "venv" y lo activa:
 python -m venv venv
 venv\Scripts\activate    # Windows
 source venv/bin/activate # Linux
+conda activate py311 # Si tenes Miniconda
 ```
 
 ### Librerías
