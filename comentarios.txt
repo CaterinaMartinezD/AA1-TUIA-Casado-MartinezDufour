@@ -106,3 +106,11 @@ y este modulo en la 3.12 fue deprecado.
 
 03/11/2025:
 - Comente de forma general la sección "7.​ Implementar un modelo de AutoML con PyCaret ¿Qué observa?".
+
+04/11/2025:
+- volvi a agregar al dataset las variables que eliminamos por tener una alta correlación con otras.
+- agregue una columna de amplitud termica.
+- agregue la comparación de las metricas entre AutoML y el modelo base.
+- modificación a los comentarios del informe en general porque cambiaron los valores.
+
+*train_df_automl* no esta en el modelo.
