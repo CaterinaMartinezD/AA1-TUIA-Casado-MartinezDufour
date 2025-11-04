@@ -112,5 +112,4 @@ y este modulo en la 3.12 fue deprecado.
 - agregue una columna de amplitud termica.
 - agregue la comparación de las metricas entre AutoML y el modelo base.
 - modificación a los comentarios del informe en general porque cambiaron los valores.
-
-*train_df_automl* no esta en el modelo.
++ Para mi ya esta listo para hacer la segunda entrega.
