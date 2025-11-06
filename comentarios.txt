@@ -113,3 +113,10 @@ y este modulo en la 3.12 fue deprecado.
 - agregue la comparación de las metricas entre AutoML y el modelo base.
 - modificación a los comentarios del informe en general porque cambiaron los valores.
 + Para mi ya esta listo para hacer la segunda entrega.
+
+05/11/2005:
+- Ver porque Gridsearch no devuelve el optimo de max_iter
+Mejores Hiperparámetros encontrados: LogisticRegression(C=1, class_weight='balanced', solver='newton-cg')
+https://chatgpt.com/share/690bc234-74dc-8008-b976-d69f70cd8660
+
+
