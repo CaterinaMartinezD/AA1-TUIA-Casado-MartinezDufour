@@ -119,4 +119,6 @@ y este modulo en la 3.12 fue deprecado.
 Mejores Hiperparámetros encontrados: LogisticRegression(C=1, class_weight='balanced', solver='newton-cg')
 https://chatgpt.com/share/690bc234-74dc-8008-b976-d69f70cd8660
 
-
+06/11/2025:
+Realice cambios en algunos valores puestos en el informe sobre la matriz de confusión y curva ROC
+- Consultar al docente porque nos dan valores diferentes al ejecutar el TP en nuestras pc.
