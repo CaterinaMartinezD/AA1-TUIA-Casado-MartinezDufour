@@ -10,3 +10,4 @@ imblearn
 shap
 optuna
 pycaret
+tensorflow
