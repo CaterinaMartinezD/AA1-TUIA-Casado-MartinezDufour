@@ -150,3 +150,10 @@ Realice cambios en algunos valores puestos en el informe sobre la matriz de conf
 
 18/11/2025:
 - Modificaciónes en la sección redes neuronales. Cambie la paciencia de la detección temprana, sume mas iteraciones a optuna y cambie la metrica a f1-score.
+- Empece la parte de comparación de modelos, cree 2 funciones para guardar los resultados en un dataframe, me falta agregarla en los modelos optimizados
+
+- Pondria todas las imputaciones en una sola seccion luego de los analisis de los datos
+- Probaria codificar direccion del viento y meses con seno y coseno para ver el impacto en NeuralNetwork
+- Probaria con datos balanceados en NeuralNetwork
+- Cree un colab para probar varias topologias de redes y usar los recursos de GPU de google.
+
