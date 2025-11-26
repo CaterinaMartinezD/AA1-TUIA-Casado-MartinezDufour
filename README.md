@@ -34,3 +34,11 @@ o bien:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Instrucciones para construir la imagen de docker y ejecutar el container
+Permite leer el 'Dockerfile' y crea la imagen del contenedor:
+
+```bash
+!docker build -t inference-python-test ./docker
+!docker run -it --rm --name inference-python-test -v ./files:/files  inference-python-test
+```

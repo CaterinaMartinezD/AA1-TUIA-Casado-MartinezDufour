@@ -160,3 +160,8 @@ Realice cambios en algunos valores puestos en el informe sobre la matriz de conf
 20/11/2025
 # Convertir probabilidades a clases (0 o 1)
 y_pred_nn = (y_pred_proba_nn > 0.4).astype(int) porque esta este umbral en 0.4?
+
+26/11/2025:
+- Complete el informe (faltaria la conclusión).
+- Agregue en el README las instrucciones para construir la imagen de docker y ejecutar el container.
+- Hice las correcciones de la primera parte del tp.
