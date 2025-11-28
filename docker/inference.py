@@ -125,9 +125,9 @@ def get_region_feature_names(transformer, input_features):
     return ['Regiones']
 
 
-pipeline = joblib.load('pipeline.pkl')
+pipeline = joblib.load('pipeline_lr.pkl')
 
-logger.info('Se carga el pipeline: pipeline.pkl')
+logger.info('Se carga el pipeline: pipeline_lr.pkl')
 
 df_input = pd.read_csv('/files/input.csv')
 
