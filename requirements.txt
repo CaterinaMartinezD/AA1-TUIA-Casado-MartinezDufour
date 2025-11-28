@@ -11,3 +11,4 @@ shap
 optuna
 pycaret
 tensorflow
+scikeras
