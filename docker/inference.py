@@ -127,19 +127,34 @@ def get_region_feature_names(transformer, input_features):
 
 pipeline = joblib.load('pipeline.pkl')
 
-logger.info('loaded pipeline')
+logger.info('Se carga el pipeline: pipeline.pkl')
 
 df_input = pd.read_csv('/files/input.csv')
 
-logger.info('loaded input')
+logger.info('Se leen los datos del archivo de entrada: /files/input.csv')
 
 print("shape:", df_input.shape)
 print(df_input.head())
 
-output = pipeline.predict(df_input)
+y_pred_clases = pipeline.predict(df_input)
+y_pred_probabilidad = pipeline.predict_proba(df_input)
 
-logger.info('made predictions')
+# Obtenemos los nombres de las clases para las columnas de probabilidad
+clases = pipeline.classes_ 
 
-pd.DataFrame(output, columns=['Rain_predicted']).to_csv('/files/output.csv', index=False)
+# Creamos un DataFrame para las probabilidades con nombres de columna claros
+df_proba = pd.DataFrame(y_pred_probabilidad, columns=[f'Prob_{c}' for c in clases])
 
-logger.info('saved output')
+df_resultados = pd.DataFrame({
+    'Prediccion_Clase': y_pred_clases,
+})
+
+# Concatenar con las probabilidades
+df_resultados_final = pd.concat([df_resultados, df_proba], axis=1)
+
+
+logger.info('Se realizan las predicciones')
+
+pd.DataFrame(df_resultados_final).to_csv('/files/output.csv', index=False)
+
+logger.info('Se guarda la salida en el archivo: /files/output.csv')

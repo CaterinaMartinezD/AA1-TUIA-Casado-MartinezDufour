@@ -19,26 +19,21 @@ Crea un entorno virtual llamado "venv" y lo activa:
 python -m venv venv
 venv\Scripts\activate    # Windows
 source venv/bin/activate # Linux
-conda activate py311 # Si tenes Miniconda
+conda activate venv # Si tenes Miniconda
 ```
 
 ### Librerías
+Requiere python 3.11 por el uso de PyCaret.
 Una vez activado el entorno virtual, es necesario instalar los siguientes módulos:
 
-```bash
-pip install numpy 
-pip install pandas 
-pip install scikit-learn
-```
-o bien: 
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Instrucciones para construir la imagen de docker y ejecutar el container
-Permite leer el 'Dockerfile' y crea la imagen del contenedor:
 
+Dentro de la carpeta del proyecto ejecutar:
 ```bash
-!docker build -t inference-python-test ./docker
-!docker run -it --rm --name inference-python-test -v ./files:/files  inference-python-test
+docker build -t inference-python-test ./docker
+docker run -it --rm --name inference-python-test -v ./files:/files  inference-python-test
 ```
